@@ -14,4 +14,4 @@ Más información próximamente...
 📌 React
 
 
-_*El contenido se irá ampliando a medida que pasen las clases
+_*El contenido se irá ampliando a medida que pasen las clases_
