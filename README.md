@@ -7,3 +7,11 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 ## El proyecto se encuentra en desarrollo
 
 Más información próximamente...
+
+
+## Temas Aprendidos*
+
+📌 React
+
+
+_*El contenido se irá ampliando a medida que pasen las clases
