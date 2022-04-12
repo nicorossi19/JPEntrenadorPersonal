@@ -1,8 +1,85 @@
+:root {
+  --bgclr: #1B262C;
+  --sclr: #3282B8;
+  --txtclr: #FFFFFF;
+  --btnclr: #0F4C75;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+.App h1 {
+  color: var(--txtclr);
+  margin-top: 30px;
+}
+
+.Navbar {
+  height: 60px;
+  padding: 0 100px;
+  background-color: var(--sclr);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px #FFFFFF;
+}
+
+.Logo a {
+  color: var(--txtclr);
+}
+
+.ProductsAndLogin {
+  width: 56%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.NavbarListProducts {
+  display: flex;
+}
+
+.NavbarListProducts a {
+  margin-right: 30px;
+  font-size: 20px;
+  color: var(--txtclr);
+}
+
+.NavbarListProducts a:hover {
+  opacity: 0.7;
+}
+
+.NavbarListLog {
+  display: flex;
+}
+
+.NavbarListLog a {
+  margin-right: 30px;
+  font-size: 18px;
+  color: var(--txtclr);
+}
+
+.NavbarListLog a:hover {
+  /* color: var(--bgclr); */
+  opacity: 0.7;
+}
+
+.NavbarListLog .Signup {
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +112,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
