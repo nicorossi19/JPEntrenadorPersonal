@@ -1,6 +1,7 @@
-
 const NavBar = () => {
+
   return (
+
     <>
       <nav className='Navbar'>
         <h2 className='Logo'><a href='#'>JP Entrenador Personal</a></h2>
@@ -16,6 +17,7 @@ const NavBar = () => {
         </div>
       </nav>
     </>
+    
   )
 }
 
