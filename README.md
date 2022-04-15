@@ -6,15 +6,22 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 
 ## Cambios / Añadidos
 
-**[6 de abril]** --> Creación del proyecto con ***create-react-app***.  
-**[11 de abril]** --> Creación de un navbar a través de un ***componente*** y ***JSX***, utilizando, además, ***Tailwind***.
+**[6 de abril]**  
+[+] Creación del proyecto con ***create-react-app***.  
+  
+**[11 de abril]**  
+[+] Creación de un navbar a través de un ***componente*** y ***JSX***, utilizando, además, ***Tailwind***.  
 
+**[15 de abril]**  
+[+] Añadido carrito de compras en el ***navbar*** a través del componente ***CartWidget.js***.  
+[+] Añadido componente contenedor ***ItemListContainer.js*** con ***prop***.
 
 ## Temas Aprendidos*
 
 📌 React  
 📌 JSX & transpiling  
-📌 Tailwind CSS
+📌 Tailwind CSS  
+📌 Componentes, props y children
 
 
 _*El contenido se irá ampliando con el paso del tiempo_
