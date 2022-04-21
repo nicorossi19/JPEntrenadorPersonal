@@ -14,14 +14,18 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 
 **[15 de abril]**  
 [+] Añadido carrito de compras en el ***navbar*** a través del componente ***CartWidget.js***.  
-[+] Añadido componente contenedor ***ItemListContainer.js*** con ***prop***.
+[+] Añadido componente contenedor ***ItemListContainer.js*** con ***prop***.  
+
+**[20 de abril]**  
+[+] Se creó un ***ItemCount*** para añadir o quitar elementos al carrito.  
 
 ## Temas Aprendidos*
 
 📌 React  
 📌 JSX & transpiling  
 📌 Tailwind CSS  
-📌 Componentes, props y children
+📌 Componentes, props y children  
+📌 Hooks (useState, useEffect) 
 
 
 _*El contenido se irá ampliando con el paso del tiempo_
