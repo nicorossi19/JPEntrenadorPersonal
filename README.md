@@ -17,7 +17,12 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 [+] Añadido componente contenedor ***ItemListContainer.js*** con ***prop***.  
 
 **[20 de abril]**  
-[+] Se creó un ***ItemCount*** para añadir o quitar elementos al carrito.  
+[+] Se creó un ***ItemCount*** para añadir o quitar elementos al carrito.
+  
+
+**[26 de abril]**  
+[+] Se creó ***ItemList.js*** para hacer un **MAP** de ***Item.js*** con un catálogo básico utilizando, además, **props** para definir al producto.
+[+] Se utilizaron los métodos **promise** y **asincronía** para recrear el efecto de petición a una API.
 
 ## Temas Aprendidos*
 
@@ -26,6 +31,7 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 📌 Tailwind CSS  
 📌 Componentes, props y children  
 📌 Hooks (useState, useEffect) 
+📌 Promises, asincronía y MAP 
 
 
 _*El contenido se irá ampliando con el paso del tiempo_
