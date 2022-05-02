@@ -3,9 +3,10 @@ import React, { useState } from 'react';
 import { GrSubtract, GrAdd } from "react-icons/gr";
 import { BsCartPlus } from "react-icons/bs";
 
-const Item = ({producto, initial, stock}) => {
+const Item = ( {producto, initial, stock} ) => {
 
   const [item, setItem] = useState(1);
+
 
   const resta = () => initial < item ? setItem(item - 1) : false;
   const suma = () => item < stock ? setItem(item + 1) : false;

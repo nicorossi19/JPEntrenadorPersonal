@@ -1,4 +1,6 @@
 
+
+
 import CartWidget from "./CartWidget"
 
 const NavBar = () => {
@@ -11,8 +13,6 @@ const NavBar = () => {
     signIn: 'mr-8 hover:opacity-80',
     signUp: 'border rounded-md py-1 px-5 hover:opacity-80'
   }
-
-  // bg-cyan-500 border-b-2 
 
   return (
     <>

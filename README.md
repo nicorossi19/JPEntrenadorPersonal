@@ -22,7 +22,10 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 
 **[26 de abril]**  
 [+] Se creó ***ItemList.js*** para hacer un **MAP** de ***Item.js*** con un catálogo básico utilizando, además, **props** para definir al producto.  
-[+] Se utilizaron los métodos **promise** y **asincronía** para recrear el efecto de petición a una API.
+[+] Se utilizaron los métodos **promise** y **asincronía** para recrear el efecto de petición a una API.  
+  
+**[2 de mayo]**  
+[+] Se creó ***ItemDetailContainer.js*** y ***ItemDetail.js*** para crear un detalle más profundo de cada producto, usando la misma técnica que con ***ItemList***.
 
 ## Temas Aprendidos*
 
@@ -31,7 +34,8 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 📌 Tailwind CSS  
 📌 Componentes, props y children  
 📌 Hooks (useState, useEffect)  
-📌 Promises, asincronía y MAP 
+📌 Promises, asincronía y MAP  
+📌 API's y cómo consumirlas
 
 
 _*El contenido se irá ampliando con el paso del tiempo_
