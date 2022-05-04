@@ -27,8 +27,8 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 **[2 de mayo]**  
 [+] Se creó ***ItemDetailContainer.js*** y ***ItemDetail.js*** para crear un detalle más profundo de cada producto, usando la misma técnica que con ***ItemList***.  
   
-**[4 de mayo - Primera Pre-entrega del proyecto final]**  
-[+] Con ayuda del ***react-router-dom***, se añadió navegación en el proyecto y también se agregaron las etiquetas ***<BrowserRouter>***, ***<Routes>*** y ***<Route>***.  
+**[4 de mayo - Primera entrega del proyecto final]**  
+[+] Con ayuda del ***react-router-dom***, se añadió navegación en el proyecto y también se agregaron las etiquetas ***BrowserRouter***, ***Routes*** y ***Route***.  
 [+] Agregué, por mi cuenta, los componentes ***Sale.js*** y ***SaleList.js*** que renderizan los productos que se ven en la pestaña **ofertas**.
 
 ## Temas Aprendidos*
