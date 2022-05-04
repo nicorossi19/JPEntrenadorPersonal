@@ -25,7 +25,11 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 [+] Se utilizaron los métodos **promise** y **asincronía** para recrear el efecto de petición a una API.  
   
 **[2 de mayo]**  
-[+] Se creó ***ItemDetailContainer.js*** y ***ItemDetail.js*** para crear un detalle más profundo de cada producto, usando la misma técnica que con ***ItemList***.
+[+] Se creó ***ItemDetailContainer.js*** y ***ItemDetail.js*** para crear un detalle más profundo de cada producto, usando la misma técnica que con ***ItemList***.  
+  
+**[4 de mayo - Primera Pre-entrega del proyecto final]**  
+[+] Con ayuda del ***react-router-dom***, se añadió navegación en el proyecto y también se agregaron las etiquetas ***<BrowserRouter>***, ***<Routes>*** y ***<Route>***.  
+[+] Agregué, por mi cuenta, los componentes ***Sale.js*** y ***SaleList.js*** que renderizan los productos que se ven en la pestaña **ofertas**.
 
 ## Temas Aprendidos*
 
@@ -35,7 +39,8 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 📌 Componentes, props y children  
 📌 Hooks (useState, useEffect)  
 📌 Promises, asincronía y MAP  
-📌 API's y cómo consumirlas
+📌 API's y cómo consumirlas  
+📌 Routing & Navegación
 
 
 _*El contenido se irá ampliando con el paso del tiempo_

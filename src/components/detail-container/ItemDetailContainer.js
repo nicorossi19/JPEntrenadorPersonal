@@ -1,39 +1,36 @@
 import { useEffect, useState } from 'react'
-import detail from './json/detail.json'
+import detail from '../../assets/detail'
 import ItemDetail from './ItemDetail'
-import loadingGif from '../../assets/loadingGif.gif'
+import { useParams } from 'react-router-dom'
 
 const ItemDetailContainer = () => {
+  
 
+  const { itemId } = useParams()
 
-  const [details, setDetails] = useState([])
+  const [item, setItem] = useState( {} )
+  
 
   useEffect(() => {
 
     const promesa = new Promise((resolve, reject) => {
 
       setTimeout(() => {
-        resolve(detail)
-        console.log(detail);
+        resolve(detail);
         reject();
-      }, 2000)
+      })
     })
 
     promesa.then(result => {
-      setDetails(result)
+      const productoEncontrado = result.find( i => i.id == itemId )
+      setItem(productoEncontrado)
     })
-  }, [])
+  }, [itemId])
 
   return (
     <>
       <section className="flex flex-wrap px-10">
-        {
-          details.length > 0 ? details.map(detail => {
-            return(
-              <ItemDetail key={detail.id} detalles={detail} initial="1" stock="5" />
-            )
-          }) : <img className="mx-auto mt-10" src={loadingGif} alt='Cargando...'/>
-        }
+        <ItemDetail detalles={item} initial="1" stock="5" />
       </section>
     </>
   )

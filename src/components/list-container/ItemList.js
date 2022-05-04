@@ -78,7 +78,7 @@ const ItemList = () => {
       setTimeout(() => {
         resolve(productos);
         reject();
-      }, 2000)
+      }, 500)
     })
 
     promesa.then(result => {
@@ -94,7 +94,7 @@ const ItemList = () => {
             return(
               <Item key={item.id} producto={item} initial='1' stock='5' />
             )
-          }) : <img className="mx-auto mt-10" src={loadingGif} alt='Cargando...'/>
+          }) : <img className="mx-auto my-auto mt-80" src={loadingGif} alt='Cargando...'/>
         }
       </section>
     </>
