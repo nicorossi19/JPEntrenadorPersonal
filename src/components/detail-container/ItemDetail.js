@@ -1,13 +1,17 @@
-import { GrSubtract, GrAdd } from "react-icons/gr";
-import { useState } from "react";
+import ItemCount from "../list-container/ItemCount";
+import { useState } from "react"
 
 const ItemDetail = ( { detalles, initial, stock }) => {
 
-    const [item, setItem] = useState(1);
+    const [terminar, setTerminar] = useState(false)
 
-    const resta = () => initial < item ? setItem(item - 1) : false;
-    const suma = () => item < stock ? setItem(item + 1) : false;
+    const onAdd = (count) => {
+        setTerminar(true)
+    }
 
+    const volver = () => {
+        setTerminar(false)
+    }
 
     return (
         <>
@@ -18,18 +22,21 @@ const ItemDetail = ( { detalles, initial, stock }) => {
                 <p className="absolute text-xl text-center text-white font-bold mt-32 w-[950px]">{detalles.desc}</p>
                 <p className="absolute text-xl text-justify text-white font-semibold mt-96 w-[950px]">{detalles.info}</p>
                 <p className="absolute text-2xl w-full text-center text-white font-black mt-[550px] uppercase">El plan tiene una duración de {detalles.dur} y un costo de ${detalles.price}</p>
-                <div className='flex flex-wrap mt-[500px] items-center'>
-                    <div className='flex justify-between items-center bg-slate-100 border-indigo-500 border-2 w-60 h-10 rounded-md overflow-hidden mx-auto mr-24'>
-                        <button className='h-10 w-20 transition-colors hover:bg-indigo-500' onClick={resta}><GrSubtract className='mx-auto' /></button>
-                        <h1>{item}</h1>
-                        <button className='h-10 w-20 transition-colors hover:bg-indigo-500' onClick={suma}><GrAdd className='mx-auto' /></button>
-                    </div>
-                    <div className="mx-auto">
-                        <button className='h-10 w-52 bg-indigo-500 border-slate-100 border-2 rounded-lg transition-colors hover:bg-indigo-600'>
-                        <h3 className='text-xl w-auto h-auto text-slate-100'>Agregar al carrito</h3>
-                        </button>
-                    </div>
-                </div>
+                {
+                    terminar ? (
+                        <div className="absolute mx-auto bg-red-500 h-0 mt-[650px]">
+                            <button className='h-10 w-52 bg-indigo-500 border-slate-100 border-2 rounded-lg transition-colors hover:bg-indigo-600'>
+                                <h3 className='text-xl w-auto h-auto text-slate-100'>
+                                    Terminar compra
+                                </h3>
+                            </button>
+                            <button onClick={volver}>
+                                <h3 className='text-xl text-white ml-10'>Volver</h3>
+                            </button>
+                        </div>
+                    ) : (
+                        <ItemCount stock={stock} initial={initial} onAdd={onAdd}/>
+                    )}
             </div>
         </div>
         </>
