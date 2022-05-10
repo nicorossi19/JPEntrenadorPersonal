@@ -12,30 +12,30 @@ const SaleList = () => {
     const descuentos = [{
             id: '1',
             title: 'PLAN MENSUAL 100% PERSONALIZADO - PREMIUM',
-            description: 'Planificá según tus objetivos y potenciá tus entrenamientos',
+            subtitle: 'Planificá según tus objetivos y potenciá tus entrenamientos',
             price: '$3.300',
-            pictureUrl: item1
+            img: item1
         },
         {
             id: '2',
             title: 'PLAN TRIMESTRAL 100% PERSONALIZADO - PREMIUM',
-            description: 'Plan de tres meses con entrenamiento progresivo',
+            subtitle: 'Plan de tres meses con entrenamiento progresivo',
             price: '$9.200',
-            pictureUrl: item2
+            img: item2
         },
         {
             id: '4',
             title: 'PLAN MENSUAL DE ENTRENAMIENTO - BASIC',
-            description: 'Te ayudo a planificarte para realizar tus entrenamientos',
+            subtitle: 'Te ayudo a planificarte para realizar tus entrenamientos',
             price: '$3.100',
-            pictureUrl: item4
+            img: item4
         },
         {
             id: '6',
             title: 'GUIA ENTRENAMIENTO FUNCIONAL 1 Y 2',
-            description: 'Entrená donde quieras y cuando quieras',
+            subtitle: 'Entrená donde quieras y cuando quieras',
             price: '$800',
-            pictureUrl: item6
+            img: item6
         }
     ];
 
