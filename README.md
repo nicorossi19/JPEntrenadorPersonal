@@ -34,7 +34,11 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 **[7 de mayo]**  
 [+] Se añadió el ***ItemCount.js*** dentro del ***ItemDetail.js***.  
 [+] Se creó un **useState** para que, al darle clic a **"Agregar al carrito"**, el botón desaparezca y en su lugar se mostrara la opción de **Terminar compra**.  
-[+] Como plus, se me ocurrió agregar un botón junto con este último para **"Volver"**, que le permite al comprador volver a seleccionar una cantidad de productos.
+[+] Como plus, se me ocurrió agregar un botón junto con este último para **"Volver"**, que le permite al comprador volver a seleccionar una cantidad de productos.  
+  
+**[11 de mayo]**
+[+] Se añadieron los ***Context*** para facilitar la interacción entre los diferentes componentes.
+[+] Ahora, cuando se le suman items al carrito, se crea un **array** con los productos seleccionados junto a la cantidad.
 
 ## Temas Aprendidos*
 
@@ -46,7 +50,8 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 📌 Promises, asincronía y MAP  
 📌 API's y cómo consumirlas  
 📌 Routing & Navegación  
-📌 Eventos
+📌 Eventos  
+📌 Context
 
 
 _*El contenido se irá ampliando con el paso del tiempo_
