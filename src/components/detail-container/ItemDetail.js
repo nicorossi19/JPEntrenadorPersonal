@@ -37,7 +37,7 @@ const ItemDetail = ( { detalles, initial, stock }) => {
                             </button>
                         </div>
                     ) : (
-                        <ItemCount stock={stock} initial={initial} onAdd={onAdd} id={detalles}/>
+                        <ItemCount stock={stock} initial={initial} onAdd={onAdd} id={id}/>
                     )}
             </div>
         </div>

@@ -15,12 +15,7 @@ const ItemCount = ( { stock, initial, onAdd, id } ) => {
     const suma = () => item < stock ? setItem(item + 1) : false;
 
     const handleClick = (id, cantidad) => {
-        const findProduct = products.find((producto) => producto.id === id)
-
-        // if (!findProduct) {
-        //     alert('Error en la base de datos')
-        //     return
-        // }
+        const findProduct = products[0].find((producto) => producto.id === id)
 
         addToCart(findProduct, cantidad)
         onAdd(item)
