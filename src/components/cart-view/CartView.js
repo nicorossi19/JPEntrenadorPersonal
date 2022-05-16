@@ -14,9 +14,7 @@ const CartView = () => {
       {
         cart.length > 0 ? cart.map(prod => {
           return(
-            <>
-              <Cart key={prod.id} product={prod} />
-            </>
+            <Cart key={prod.id} product={prod} />
           )
         }) :
         // De no haber ítems muestra un mensaje diciendo que no hay ítems y un react-router Link o un botón para que pueda volver al Landing.
