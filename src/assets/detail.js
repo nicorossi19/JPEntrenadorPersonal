@@ -15,8 +15,7 @@ export default [
         info: "El plan INCLUYE una rutina 100% personalizada segun tus objetivos; acceso a la App 'JP ENTRENAMIENTO', donde vas a tener tu rutina personalizada y actualizada; fotos y videos explicativos de cada ejercicio a realizar; seguimientos via WhatsApp para motivacion e ir viendo progreso y evacuando dudas.",
         dur: "30 DÍAS",
         price: 3300,
-        img: item1,
-        onSale: true
+        img: item1
     },
     {
         id: "2",
@@ -26,8 +25,7 @@ export default [
         info: "El plan INCLUYE una rutina 100% personalizada segun tus objetivos; acceso a la App 'JP ENTRENAMIENTO', donde vas a tener tu rutina personalizada y actualizada; fotos y videos explicativos de cada ejercicio a realizar; seguimientos via WhatsApp para motivacion e ir viendo progreso y evacuando dudas.",
         dur: "90 DÍAS",
         price: 9200,
-        img: item2,
-        onSale: true
+        img: item2
     },
     {
         id: "3",
@@ -37,8 +35,7 @@ export default [
         info: "Para: PRINCIPIANTES, Incursiona en el mundo del HIIT y cambia tu forma de entrenar. INTERMEDIOS: Estos entrenamientos te van ayudar a salir de tu zona de confort y cambiar lo que necesitas. AVANZADOS: Termina de pulir los objetivos esteticos que te quedan pendientes.",
         dur: "30 DÍAS",
         price: 800,
-        img: item3,
-        onSale: false
+        img: item3
     },
     {
         id: "4",
@@ -48,8 +45,7 @@ export default [
         info: "El plan INCLUYE una rutina 100% personalizada segun tus objetivos; acceso a la App 'JP ENTRENAMIENTO', donde vas a tener tu rutina personalizada y actualizada; fotos y videos explicativos de cada ejercicio a realizar; seguimientos via WhatsApp para motivacion e ir viendo progreso y evacuando dudas.",
         dur: "30 DÍAS",
         price: 3100,
-        img: item4,
-        onSale: true
+        img: item4
     },
     {
         id: "5",
@@ -59,8 +55,7 @@ export default [
         info: "El plan INCLUYE una rutina 100% personalizada segun tus objetivos; acceso a la App 'JP ENTRENAMIENTO', donde vas a tener tu rutina personalizada y actualizada; fotos y videos explicativos de cada ejercicio a realizar; seguimientos via WhatsApp para motivacion e ir viendo progreso y evacuando dudas.",
         dur: "30 DÍAS",
         price: 3500,
-        img: item5,
-        onSale: false
+        img: item5
     },
     {
         id: "6",
@@ -70,8 +65,7 @@ export default [
         info: "El plan INCLUYE una rutina 100% personalizada segun tus objetivos; acceso a la App 'JP ENTRENAMIENTO', donde vas a tener tu rutina personalizada y actualizada; fotos y videos explicativos de cada ejercicio a realizar; seguimientos via WhatsApp para motivacion e ir viendo progreso y evacuando dudas.",
         dur: "30 DÍAS",
         price: 800,
-        img: item6,
-        onSale: true
+        img: item6
     },
     {
         id: "7",
@@ -81,8 +75,7 @@ export default [
         info: "El plan INCLUYE una rutina 100% personalizada segun tus objetivos; acceso a la App 'JP ENTRENAMIENTO', donde vas a tener tu rutina personalizada y actualizada; fotos y videos explicativos de cada ejercicio a realizar; seguimientos via WhatsApp para motivacion e ir viendo progreso y evacuando dudas.",
         dur: "30 DÍAS",
         price: 1600,
-        img: item7,
-        onSale: false
+        img: item7
     },
     {
         id: "8",
@@ -92,7 +85,6 @@ export default [
         info: "El plan INCLUYE una rutina 100% personalizada segun tus objetivos; acceso a la App 'JP ENTRENAMIENTO', donde vas a tener tu rutina personalizada y actualizada; fotos y videos explicativos de cada ejercicio a realizar; seguimientos via WhatsApp para motivacion e ir viendo progreso y evacuando dudas.",
         dur: "30 DÍAS",
         price: 1600,
-        img: item7,
-        onSale: false
+        img: item7
     }
 ]

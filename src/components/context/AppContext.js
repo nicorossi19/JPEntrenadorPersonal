@@ -9,8 +9,6 @@ const AppContextProvider = ( {children} ) => {
 
   const [products, setProducts] = useState([prods])
 
-  console.log(products)
-
   return (
     <AppContext.Provider
       value={{

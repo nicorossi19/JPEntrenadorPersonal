@@ -8,6 +8,7 @@ import ItemDetailContainer from './components/detail-container/ItemDetailContain
 import SaleList from './components/sale-container/SaleList';
 import CartContextProvider from './components/context/CartContext';
 import AppContextProvider from './components/context/AppContext';
+import CartView from './components/cart-view/CartView';
 
 
 function App() {
@@ -18,15 +19,19 @@ function App() {
           <BrowserRouter>
             <NavBar />
               <Routes>
-                <Route path='/' element={<ItemListContainer greeting="JP Entrenador Personal" />} />
+                <Route path='/' element={ <ItemListContainer greeting="JP Entrenador Personal" /> } />
                 <Route path='/productos' element={ <ItemList/> } />
                 <Route path='/item/:itemId' element={ <ItemDetailContainer/> } />
-                <Route path='/descuentos' element={<SaleList />} />
+                <Route path='/descuentos' element={ <SaleList /> } />
+                {/* Debe estar agregada la ruta ‘cart’ al BrowserRouter. */}
+                <Route path='/cart' element= { <CartView /> } />
               </Routes>
           </BrowserRouter>
         </CartContextProvider>
       </AppContextProvider>
     </>
+
+
   );
 }
 
