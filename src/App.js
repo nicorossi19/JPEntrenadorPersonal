@@ -9,6 +9,8 @@ import SaleList from './components/sale-container/SaleList';
 import CartContextProvider from './components/context/CartContext';
 import AppContextProvider from './components/context/AppContext';
 import CartView from './components/cart-view/CartView';
+import ProductDetail from './components/firebase-examples/ProductDetail';
+import Products from './components/firebase-examples/Products';
 
 
 function App() {
@@ -21,10 +23,11 @@ function App() {
               <Routes>
                 <Route path='/' element={ <ItemListContainer greeting="JP Entrenador Personal" /> } />
                 <Route path='/productos' element={ <ItemList/> } />
-                <Route path='/item/:itemId' element={ <ItemDetailContainer/> } />
+                <Route path='/item/:id' element={ <ItemDetailContainer/> } />
                 <Route path='/descuentos' element={ <SaleList /> } />
-                {/* Debe estar agregada la ruta ‘cart’ al BrowserRouter. */}
                 <Route path='/cart' element= { <CartView /> } />
+                <Route path='/product' element= { <ProductDetail /> } />
+                <Route path='/products' element= { <Products /> } />
               </Routes>
           </BrowserRouter>
         </CartContextProvider>
