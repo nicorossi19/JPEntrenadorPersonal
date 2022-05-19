@@ -45,7 +45,10 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 [+] Cuando no hay productos seleccionados, el ***Cart.js*** lanza un mensaje avisándote de que no hay productos.  
 [+] Ahora, en el ***ItemDetail.js***, después de seleccionar la cantidad de productos y darle a **"Agregar al carrito"**, aparecen dos botones más: **"Terminar compra"**, que te lleva con un **Link** a ***Cart.js***, y **"Seguir comprando"**, que te devuelve a los productos.  
 [+] También se agregó un botón para **eliminar los productos del carrito**.  
-[+] Varios ***ternarios*** para mostrar diversos mensajes según lo necesitado.
+[+] Varios ***ternarios*** para mostrar diversos mensajes según lo necesitado.  
+  
+**[18 de mayo]**  
+[+] Se implementó ***Firebase*** y ***Firestore*** para incluir los productos a una base de datos.
 
 ## Temas Aprendidos*
 
@@ -59,7 +62,8 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 📌 Routing & Navegación  
 📌 Eventos  
 📌 Context  
-📌 Rendering condicional
+📌 Rendering condicional  
+📌 Firebase I
 
 
 _*El contenido se irá ampliando con el paso del tiempo_
