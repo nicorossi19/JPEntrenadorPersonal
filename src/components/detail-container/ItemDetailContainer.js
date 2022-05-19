@@ -3,25 +3,19 @@ import { useEffect, useState } from 'react'
 import ItemDetail from './ItemDetail'
 import { useParams } from 'react-router-dom'
 import { doc, getDoc, getFirestore } from 'firebase/firestore'
+import { useAppContext } from '../context/AppContext'
 
 const ItemDetailContainer = () => {
   
   const { id } = useParams()
   const [product, setProduct] = useState({})
+  const { products } = useAppContext()
 
   useEffect(() => {
-    const db = getFirestore()
+    const findProduct = products.find(product => product.id === id)
+    setProduct(findProduct)
 
-    const productos = doc(db, 'productos', id)
-
-    getDoc( productos ).then( snapshot => {
-      if (snapshot.exists()) {
-        setProduct(snapshot.data())
-      }
-    })
-  })
-  
-
+  }, [id])
 
   // const [item, setItem] = useState( {} )
   

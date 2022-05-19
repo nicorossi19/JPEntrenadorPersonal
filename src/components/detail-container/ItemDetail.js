@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ItemDetail = ( { detalles, initial, stock }) => {
 
-    const { img, title, desc, info, dur, price, id } = detalles
+    const { img, title, desc, info, dur, price } = detalles
 
     const [terminar, setTerminar] = useState(false)
 
@@ -40,7 +40,7 @@ const ItemDetail = ( { detalles, initial, stock }) => {
                                 </button>
                             </div>
                         ) : (
-                            <ItemCount stock={stock} initial={initial} onAdd={onAdd} id={id}/>
+                            <ItemCount stock={stock} initial={initial} onAdd={onAdd} producto={detalles}/>
                         )}
                 </div>
             </div>
