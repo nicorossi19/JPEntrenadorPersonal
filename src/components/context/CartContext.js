@@ -39,7 +39,7 @@ const CartContextProvider = ( {children} ) => {
 
     setCart(deleteProduct)
   }
-
+  
   const deleteCart = () => setCart([])
 
   return (

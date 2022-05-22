@@ -5,8 +5,6 @@ const ItemList = () => {
 
   const { products } = useAppContext()
 
-  console.log(products)
-
   return(
     <div>
       {

@@ -10,7 +10,6 @@ const Cart = ( {product} ) => {
   const priceProducts = () => {
     return price * quantity
   }
-
   
   
 
