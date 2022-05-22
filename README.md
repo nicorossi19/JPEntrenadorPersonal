@@ -48,7 +48,10 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 [+] Varios ***ternarios*** para mostrar diversos mensajes según lo necesitado.  
   
 **[18 de mayo]**  
-[+] Se implementó ***Firebase*** y ***Firestore*** para incluir los productos a una base de datos.
+[+] Se implementó ***Firebase*** y ***Firestore*** para incluir los productos a una base de datos.  
+  
+**[22 de mayo]**  
+[+] Al hacer clic en **"Pagar"** luego de seleccionar los productos, se envía a **Firebase** la información a modo de colección y se le devuelve al usuario el ID como orden de compra.
 
 ## Temas Aprendidos*
 
@@ -63,7 +66,8 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 📌 Eventos  
 📌 Context  
 📌 Rendering condicional  
-📌 Firebase I
+📌 Firebase I  
+📌 Firebase II
 
 
 _*El contenido se irá ampliando con el paso del tiempo_
