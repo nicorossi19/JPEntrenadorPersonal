@@ -1,16 +1,7 @@
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-body::-webkit-scrollbar {
-  width: 10px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(37 99 235);
-  border-radius: 20px;
+:root {
+  --blue: #1e3a8a;
+  --aqua: #5dd4ca;
+  --darkblue: #0f1d42;
+  --lightblue: #2e59cf;
+  --white: #f0f8ff;
 }

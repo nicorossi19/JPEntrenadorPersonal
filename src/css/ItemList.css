@@ -1,0 +1,28 @@
+:root {
+    --blue: #1b5ce7;
+    --white: #f0f0f0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 0 40px;
+    margin: 100px 0;
+}
+
+.loader-container {
+    height: 92.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-text {
+    color: var(--white);
+    font-weight: 500;
+    text-transform: uppercase;
+}

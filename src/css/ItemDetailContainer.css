@@ -1,0 +1,13 @@
+:root {
+    --blue: #1b5ce7;
+    --orange: #fa9a0b;
+    --white: #f0f0f0;
+}
+
+.section {
+    padding: 70px;
+    height: 92.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

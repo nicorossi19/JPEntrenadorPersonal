@@ -1,0 +1,69 @@
+:root {
+    --blue: #1b5ce7;
+    --white: #f0f0f0;
+}
+
+.container {
+    background: var(--blue);
+    min-width: 100%;
+    height: 70px;
+    padding: 0 70px;
+    border-bottom: var(--white) solid 1px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.7em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.menu-list,
+.user-container,
+.user-list {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-item,
+.user-item {
+    position: relative;
+    color: var(--white);
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.menu-item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--white);
+    height: 2px;
+    width: 0;
+    transition: 0.5s;
+}
+
+.menu-item a:hover::after {
+    width: 60%;
+}
+
+.user-item:hover {
+    opacity: 0.8;
+}
+
+.register {
+    border: var(--white) solid 2px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}

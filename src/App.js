@@ -19,7 +19,7 @@ function App() {
           <BrowserRouter>
             <NavBar />
               <Routes>
-                <Route path='/' element={ <ItemListContainer greeting="JP Entrenador Personal" /> } />
+                <Route path='/' element={ <ItemListContainer title="JP Entrenador Personal" subtitle='Rutinas para el gimnasio y tu casa' /> } />
                 <Route path='/productos' element={ <ItemList/> } />
                 <Route path='/item/:id' element={ <ItemDetailContainer/> } />
                 <Route path='/descuentos' element={ <SaleList /> } />

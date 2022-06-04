@@ -51,7 +51,10 @@ Tienda virtual para adquirir diferentes paquetes de rutinas y ejercicios prepara
 [+] Se implementó ***Firebase*** y ***Firestore*** para incluir los productos a una base de datos.  
   
 **[22 de mayo]**  
-[+] Al hacer clic en **"Pagar"** luego de seleccionar los productos, se envía a **Firebase** la información a modo de colección y se le devuelve al usuario el ID como orden de compra.
+[+] Al hacer clic en **"Pagar"** luego de seleccionar los productos, se envía a **Firebase** la información a modo de colección y se le devuelve al usuario el ID como orden de compra.  
+  
+**[4 de junio]**  
+[+] Se hizo un rediseño completo del proyecto combinando **tailwind** y **CSS Puro**.
 
 ## Temas Aprendidos*
 

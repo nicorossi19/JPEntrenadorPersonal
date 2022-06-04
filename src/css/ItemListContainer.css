@@ -1,0 +1,35 @@
+:root {
+    --blue: #1b5ce7;
+    --white: #f0f0f0;
+}
+
+.title-container {
+    min-height: 92.6vh;
+    background-image: url(../assets/heroImage.jpg);
+    background-position: center;
+    background-size: cover;
+
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+}
+
+.subtitle {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    background: var(--blue);
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+

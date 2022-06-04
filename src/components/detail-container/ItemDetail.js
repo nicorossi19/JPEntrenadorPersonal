@@ -1,10 +1,11 @@
 import ItemCount from "../list-container/ItemCount";
 import { useState } from "react"
 import { Link } from "react-router-dom";
+import '../../css/ItemDetail.css'
 
 const ItemDetail = ( { detalles, initial, stock }) => {
 
-    const { img, title, desc, info, dur, price } = detalles
+    const { img, title, info, dur, price } = detalles
 
     const [terminar, setTerminar] = useState(false)
 
@@ -14,34 +15,27 @@ const ItemDetail = ( { detalles, initial, stock }) => {
 
     return (
         <>
-            <div className="w-screen h-[800px] mt-32 flex flex-wrap justify-center">
-                <img src={img} alt={title} className='fixed mx-auto w-screen opacity-50'/>
-                <div className="relative w-full flex justify-center flex-wrap">
-                    <h2 className="absolute text-white text-5xl text-center font-black rounded-md p-2 mt-10">{title}</h2>
-                    <p className="absolute text-xl text-center text-white font-bold mt-32 w-[950px]">{desc}</p>
-                    <p className="absolute text-xl text-justify text-white font-semibold mt-96 w-[950px]">{info}</p>
-                    <p className="absolute text-2xl w-full text-center text-white font-black mt-[550px] uppercase">El plan tiene una duración de {dur} y un costo de ${price}</p>
+            <div className="detail-container">
+                <img src={ img } alt={ title } className='img'/>
+                <div className="info-container">
+                    <h2 className="info-title">{ title }</h2>
+                    <p className="info">{ info }</p>
+                    <p className="info-dur-price">El plan tiene una duración de { dur } y un costo de ${ price }</p>
                     {
                         terminar ? (
-                            <div className="absolute mx-auto bg-red-500 h-0 mt-[650px] flex gap-10">
-                                <button className='h-10 w-52 bg-indigo-500 border-slate-100 border-2 rounded-lg transition-colors hover:bg-indigo-600'>
-                                    <Link to={'/cart'}>
-                                        <h3 className='text-xl w-auto h-auto text-slate-100'>
+                            <div className="btn-container">
+                                <button className="btn-end">
+                                    <Link to={ '/cart' }>
+                                        <h3 className="end-buying">
                                             Terminar compra
-                                        </h3>
-                                    </Link>
-                                </button>
-                                <button className='h-10 w-52 bg-indigo-500 border-slate-100 border-2 rounded-lg transition-colors hover:bg-indigo-600'>
-                                    <Link to={'/productos'}>
-                                        <h3 className='text-xl w-auto h-auto text-slate-100'>
-                                            Seguir comprando
                                         </h3>
                                     </Link>
                                 </button>
                             </div>
                         ) : (
-                            <ItemCount stock={stock} initial={initial} onAdd={onAdd} producto={detalles}/>
-                        )}
+                            <ItemCount stock={ stock } initial={ initial } onAdd={ onAdd } producto={ detalles } />
+                        )
+                    }
                 </div>
             </div>
         </>
